@@ -1,0 +1,13 @@
+App(
+    appid="morse_academy",
+    name="Morse Academy",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="morse_academy_app",
+    requires=["gui", "storage", "notification"],
+    stack_size=8 * 1024,
+    fap_category="Games",
+    fap_icon="icon.png",
+    fap_version="1.0",
+    fap_description="Learn Morse code from zero: lessons, practice, games, keyer. Sound, vibration and LED.",
+    fap_author="Toni",
+)
