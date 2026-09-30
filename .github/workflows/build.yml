@@ -18,6 +18,7 @@ jobs:
         id: build-app
         with:
           sdk-channel: release
+          app-dir: source
 
       - name: Upload app
         uses: actions/upload-artifact@v4

@@ -8,3 +8,10 @@ __pycache__/
 # PC preview: fonts are extracted from your local ufbt SDK, renders are temporary
 tools/flipper_preview/fonts/
 tools/flipper_preview/shots/
+
+# Kept on the PC only (developer helpers, not part of the repository)
+docs/
+tools/
+scripts/
+CHANGELOG.md
+make_icon.py
