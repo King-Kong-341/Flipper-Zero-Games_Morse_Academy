@@ -10,7 +10,7 @@ vibration and the RGB LED. No extra boards needed.
 ![Language](https://img.shields.io/badge/language-C-blue)
 ![Firmware](https://img.shields.io/badge/firmware-official%201.x-lightgrey)
 ![License](https://img.shields.io/badge/license-MIT-green)
-[![Build](https://github.com/King-Kong-341/Flipper-Zero-Morsecode/actions/workflows/build.yml/badge.svg)](https://github.com/King-Kong-341/Flipper-Zero-Morsecode/actions/workflows/build.yml)
+[![Build](https://github.com/King-Kong-341/Flipper-Zero-Games_Morse_Academy/actions/workflows/build.yml/badge.svg)](https://github.com/King-Kong-341/Flipper-Zero-Games_Morse_Academy/actions/workflows/build.yml)
 
 <img src="docs/screenshots/main_menu.png" width="32%"> <img src="docs/screenshots/lesson_path.png" width="32%"> <img src="docs/screenshots/new_letter.png" width="32%">
 
@@ -52,7 +52,7 @@ tricks good language apps use.
 ### Option A — Ready-made app (easiest)
 
 1. Download **[`morse_academy.fap`](morse_academy.fap)** (also attached to every
-   [release](https://github.com/King-Kong-341/Flipper-Zero-Morsecode/releases)).
+   [release](https://github.com/King-Kong-341/Flipper-Zero-Games_Morse_Academy/releases)).
 2. Open [qFlipper](https://flipperzero.one/update) and connect your Flipper via USB.
 3. In the **File Manager**, copy the file to `SD Card/apps/Games/`.
 4. On the Flipper: **Menu → Apps → Games → Morse Academy**.
@@ -109,7 +109,7 @@ pixel-accurate, but the orange is just for looks.</sub>
 ## 🗂 Project structure
 
 ```
-Flipper-Zero-Morsecode/
+Flipper-Zero-Games_Morse_Academy/
 ├── application.fam          # app manifest (name, icon, category, entry point)
 ├── morse.h                  # shared types, app state, all declarations
 ├── morse_main.c             # start-up, event loop, XP / levels / streak / badges
